@@ -90,6 +90,10 @@ body{
 }
 
 .results-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
   width: 300px;
   text-align: center;
   padding:0 1.5em 1.5em 1.5em;
@@ -192,12 +196,11 @@ body{
   .container{
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
 
   .results{
     width: 100%;
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 1.2rem 1.2rem;
   }
 
   .summary{
@@ -205,8 +208,8 @@ body{
   }
 
   .results-text{
-    width: 350px;
-    text-align: center;
+    width: 280px;
+    padding: 0%;
     
   }
 }
